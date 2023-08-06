@@ -16,14 +16,14 @@ const UserApiConnector:FC<IUserApiConnectorProps> = ({
   // Also we can use users data instead slice data because RTK Query give this opportunity
 
   // We can use another method for generation userData
-  const anotherDataUsers: IUser[] = [
-    {
-      id: 1,
-      name: 'FakeName',
-      phone: '+359002333222',
-      website: 'site.com.ua'
-    },
-  ];
+  // const anotherDataUsers: IUser[] = [
+  //   {
+  //     id: 1,
+  //     name: 'FakeName',
+  //     phone: '+359002333222',
+  //     website: 'site.com.ua'
+  //   },
+  // ];
 
   useEffect(() => {
     if (users) {
