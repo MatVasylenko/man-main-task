@@ -2,7 +2,6 @@ import React, { FC, useEffect } from 'react';
 import { useGetUsersQuery } from './userApi';
 import { useAppDispatch } from 'src/app/store';
 import { setUsers } from 'src/entities/user/slices/userSlice';
-import { IUser } from 'src/entities/user/model';
 
 interface IUserApiConnectorProps {
   children: React.ReactNode;
